@@ -1,4 +1,8 @@
+#![deny(clippy::all)]
+
 fn main() {
-    run();
+    let response = run();
+    println!("{:?}", response);
 }
+
 fn run() {}
